@@ -51,5 +51,14 @@ function dragElement(elmnt, bookmark) {
     document.onmousemove = null;
     document.onclick = null;
     dragging = false;
+    
   }
+}
+
+// THIS FUNCTION IS OPTIONAL
+var count = 1;
+var inc_zIndex = function(id){
+  // optional function, changes zIndex when item is clicked
+  // most recently clicked item will have a higher zIndex
+  document.getElementById(id).style.zIndex = count++;
 }
