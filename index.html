@@ -10,13 +10,13 @@
 
 <body>
   <!-- Draggable DIV -->
-  <div id="mydiv1">
+  <div id="mydiv1" class="dragDiv">
     <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
-    <div id="mydivheader" onmousedown="inc_zIndex('mydiv1')"></div>
+    <div id="mydivheader" class="dragHead" onmousedown="inc_zIndex('mydiv1')"></div>
   </div>
   <br><br><br><br><br><br><br><br><br><br>
-  <div id="mydiv2" onmousedown="inc_zIndex('mydiv2')">
-    <div id="mydiv2header"></div>
+  <div id="mydiv2" onmousedown="inc_zIndex('mydiv2')" class="dragDiv">
+    <div id="mydiv2header" class="dragHead"></div>
   </div>
 </body>
 </html>

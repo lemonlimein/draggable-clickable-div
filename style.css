@@ -1,11 +1,11 @@
-div {
+.dragDiv {
   position: absolute;
   text-align: center;
   left: 100px;
   z-index: 0;
 }
 
-div > div {
+.dragHead {
   width: 200px;
   height: 100px;
   background-image: url('rotatingfood2/unnamed (1).gif');
@@ -14,7 +14,7 @@ div > div {
   z-index: 0;
 }
 
-div:hover{
+.dragHead:hover{
   background-size: 100% 95%;
 }
 
